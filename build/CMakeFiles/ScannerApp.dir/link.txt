@@ -1,0 +1,1 @@
+/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++     CMakeFiles/ScannerApp.dir/main.cpp.o  -o ScannerApp 

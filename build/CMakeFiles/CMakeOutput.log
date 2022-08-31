@@ -1,0 +1,404 @@
+The target system is: Linux - 1 - 
+The host system is: Linux - 5.13.0-44-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/scottoatta/Documents/scannerproject/build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/scottoatta/Documents/scannerproject/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4cd33/fast && /usr/bin/make -f CMakeFiles/cmTC_4cd33.dir/build.make CMakeFiles/cmTC_4cd33.dir/build
+make[1]: Entering directory '/home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o
+/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc   -v -o CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc
+Target: arm-unknown-linux-gnueabi
+Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c,c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.3.0 (crosstool-NG 1.24.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/cc1 -quiet -v -iprefix /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/ -isysroot /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccMWoB8F.s
+GNU C17 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include"
+ignoring nonexistent directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/include"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include
+End of search list.
+GNU C17 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 439a017dbdad26aedd8727f6c8deb7c4
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o /tmp/ccMWoB8F.s
+GNU assembler version 2.29.1 (arm-unknown-linux-gnueabi) using BFD version (crosstool-NG 1.24.0) 2.29.1
+COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+Linking C executable cmTC_4cd33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd33.dir/link.txt --verbose=1
+/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc     -v CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o  -o cmTC_4cd33 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc
+COLLECT_LTO_WRAPPER=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper
+Target: arm-unknown-linux-gnueabi
+Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c,c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.3.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cd33' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/collect2 -plugin /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/liblto_plugin.so -plugin-opt=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEslrDz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_4cd33 /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crt1.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crti.o /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtbegin.o -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0 -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtend.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cd33' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+make[1]: Leaving directory '/home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/include]
+  implicit include dirs: [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include;/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-unknown-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_4cd33/fast && /usr/bin/make -f CMakeFiles/cmTC_4cd33.dir/build.make CMakeFiles/cmTC_4cd33.dir/build]
+  ignore line: [make[1]: Entering directory '/home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc   -v -o CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc]
+  ignore line: [Target: arm-unknown-linux-gnueabi]
+  ignore line: [Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/cc1 -quiet -v -iprefix /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/ -isysroot /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccMWoB8F.s]
+  ignore line: [GNU C17 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 439a017dbdad26aedd8727f6c8deb7c4]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o /tmp/ccMWoB8F.s]
+  ignore line: [GNU assembler version 2.29.1 (arm-unknown-linux-gnueabi) using BFD version (crosstool-NG 1.24.0) 2.29.1]
+  ignore line: [COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  ignore line: [Linking C executable cmTC_4cd33]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd33.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc     -v CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o  -o cmTC_4cd33 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-unknown-linux-gnueabi]
+  ignore line: [Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4cd33' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  link line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/collect2 -plugin /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/liblto_plugin.so -plugin-opt=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEslrDz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_4cd33 /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crt1.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crti.o /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtbegin.o -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0 -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtend.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crtn.o]
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEslrDz.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4cd33] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_4cd33.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtend.o] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/lib]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/lib]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0;/usr/bin/arm-unknown-linux-gnueabi/lib/gcc;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/lib;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/lib;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_98db9/fast && /usr/bin/make -f CMakeFiles/cmTC_98db9.dir/build.make CMakeFiles/cmTC_98db9.dir/build
+make[1]: Entering directory '/home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++    -v -o CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++
+Target: arm-unknown-linux-gnueabi
+Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c,c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.3.0 (crosstool-NG 1.24.0) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/cc1plus -quiet -v -iprefix /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/ -isysroot /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc1V9f1t.s
+GNU C++14 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/backward"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include"
+ignoring nonexistent directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/include"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed"
+ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/backward
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include
+End of search list.
+GNU C++14 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)
+	compiled by GNU C version 9.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 343dc046f0f65489b10bdf833be72f2e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1V9f1t.s
+GNU assembler version 2.29.1 (arm-unknown-linux-gnueabi) using BFD version (crosstool-NG 1.24.0) 2.29.1
+COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+Linking CXX executable cmTC_98db9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98db9.dir/link.txt --verbose=1
+/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++      -v CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98db9 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++
+COLLECT_LTO_WRAPPER=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper
+Target: arm-unknown-linux-gnueabi
+Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c,c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long
+Thread model: posix
+gcc version 8.3.0 (crosstool-NG 1.24.0) 
+COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/
+LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98db9' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/collect2 -plugin /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/liblto_plugin.so -plugin-opt=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIcHgtV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_98db9 /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crt1.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crti.o /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtbegin.o -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0 -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtend.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98db9' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t'
+make[1]: Leaving directory '/home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/backward]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include]
+    add: [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include/c++/8.3.0]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/backward] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include/c++/8.3.0/backward]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include]
+  collapse include dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/include]
+  implicit include dirs: [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include/c++/8.3.0;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include/c++/8.3.0/backward;/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include;/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/include;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-unknown-linux-gnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_98db9/fast && /usr/bin/make -f CMakeFiles/cmTC_98db9.dir/build.make CMakeFiles/cmTC_98db9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/scottoatta/Documents/scannerproject/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++    -v -o CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++]
+  ignore line: [Target: arm-unknown-linux-gnueabi]
+  ignore line: [Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/cc1plus -quiet -v -iprefix /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/ -isysroot /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot -D_GNU_SOURCE /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm10tdmi -mtls-dialect=gnu -marm -march=armv5t -auxbase-strip CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc1V9f1t.s]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/backward"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/../../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/arm-unknown-linux-gnueabi]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include/c++/8.3.0/backward]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/include-fixed]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/include]
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0) version 8.3.0 (arm-unknown-linux-gnueabi)]
+  ignore line: [	compiled by GNU C version 9.3.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.20-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 343dc046f0f65489b10bdf833be72f2e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  ignore line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/as -v -march=armv5t -meabi=5 -o CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc1V9f1t.s]
+  ignore line: [GNU assembler version 2.29.1 (arm-unknown-linux-gnueabi) using BFD version (crosstool-NG 1.24.0) 2.29.1]
+  ignore line: [COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  ignore line: [Linking CXX executable cmTC_98db9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98db9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++      -v CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_98db9 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/arm-unknown-linux-gnueabi/bin/arm-unknown-linux-gnueabi-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper]
+  ignore line: [Target: arm-unknown-linux-gnueabi]
+  ignore line: [Configured with: /home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-unknown-linux-gnueabi --prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi --with-sysroot=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-languages=c c++ --with-pkgversion='crosstool-NG 1.24.0' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpfr=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-mpc=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --with-isl=/home/scottoatta/src/RaspberryPi/toolchain/crosstool-ng-1.24.0/.build/arm-unknown-linux-gnueabi/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl -Bstatic -lstdc++ -Bdynamic -lm' --enable-threads=posix --enable-target-optspace --disable-plugin --disable-nls --disable-multilib --with-local-prefix=/home/scottoatta/x-tools/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot --enable-long-long]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (crosstool-NG 1.24.0) ]
+  ignore line: [COMPILER_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/:/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib/:/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98db9' '-shared-libgcc' '-mcpu=arm10tdmi' '-mtls-dialect=gnu' '-marm' '-march=armv5t']
+  link line: [ /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/collect2 -plugin /usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/liblto_plugin.so -plugin-opt=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIcHgtV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux.so.3 -X -m armelf_linux_eabi -o cmTC_98db9 /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crt1.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crti.o /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtbegin.o -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0 -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc -L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib -L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtend.o /usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crtn.o]
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/bin/arm-unknown-linux-gnueabi/bin/../libexec/gcc/arm-unknown-linux-gnueabi/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIcHgtV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_98db9] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtbegin.o] ==> ignore
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib]
+    arg [-L/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib] ==> dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_98db9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/crtend.o] ==> ignore
+    arg [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc] ==> [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../lib/gcc/arm-unknown-linux-gnueabi/8.3.0/../../../../arm-unknown-linux-gnueabi/lib] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/lib]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/lib] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/lib]
+  collapse library dir [/usr/bin/arm-unknown-linux-gnueabi/bin/../arm-unknown-linux-gnueabi/sysroot/usr/lib] ==> [/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/bin/arm-unknown-linux-gnueabi/lib/gcc/arm-unknown-linux-gnueabi/8.3.0;/usr/bin/arm-unknown-linux-gnueabi/lib/gcc;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/lib;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/lib;/usr/bin/arm-unknown-linux-gnueabi/arm-unknown-linux-gnueabi/sysroot/usr/lib]
+  implicit fwks: []
+
+

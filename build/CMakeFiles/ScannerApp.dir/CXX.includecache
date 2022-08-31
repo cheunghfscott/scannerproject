@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/scottoatta/Documents/scannerproject/main.cpp
+iostream
+-
+fstream
+-
+string.h
+-
+cstring
+-
+time.h
+-
+chrono
+-
+ctime
+-
+sstream
+-
+iomanip
+-
+

@@ -1,0 +1,45 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+            "label": "cmake build",
+            "type": "shell",
+            "command": "cd build && make" ,
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "cmake clean",
+            "type": "shell",
+            "command": "rm -rf build/src" ,
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "send binary",
+            "type": "shell",
+            "command": "cd build && scp ScannerApp pi@192.168.1.91:/home/pi/Desktop",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "send binary to HQ pi",
+            "type": "shell",
+            "command": "cd build && scp ScannerApp pi@10.1.25.38:/home/pi/Desktop",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+	]
+}

@@ -1,0 +1,3 @@
+/home/scottoatta/Documents/scannerproject/build/CMakeFiles/rebuild_cache.dir
+/home/scottoatta/Documents/scannerproject/build/CMakeFiles/edit_cache.dir
+/home/scottoatta/Documents/scannerproject/build/CMakeFiles/ScannerApp.dir
